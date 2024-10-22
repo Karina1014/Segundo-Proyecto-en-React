@@ -1,6 +1,6 @@
 import './App.css';
 import logoALline from './assets/logo.png';
-
+import Boton from './componentes/Boton';
 function App() {
   return (
     <div className="App">
@@ -12,6 +12,8 @@ function App() {
         />
       </div>
       <div className="contador-principal"></div>
+      <Boton/>
+      <Boton/>
     </div>
   );
 }
