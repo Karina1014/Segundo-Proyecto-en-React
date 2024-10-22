@@ -11,10 +11,7 @@ function App() {
           alt="Logo de Aline"
         />
       </div>
-      <div className="contador-principal">
-        {/* Agregar la lógica para el contador */}
-        <h2>Contador: 0</h2> {/* Ejemplo de título para el contador */}
-      </div>
+      <div className="contador-principal"></div>
     </div>
   );
 }
