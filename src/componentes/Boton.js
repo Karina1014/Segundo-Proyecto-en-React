@@ -1,11 +1,11 @@
 import React from "react";
 
 
-function boton(props){
+function boton({ texto }){
 
     return(
         <botton>
-            {props.texto}
+            {texto}
         </botton>
     );
 }
